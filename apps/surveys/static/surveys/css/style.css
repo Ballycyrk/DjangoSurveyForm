@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding:  0px;
+  font-family: fantasy;
+}
+
+#container {
+  width: 970px;
+  margin: 0px auto;
+}
+
+#flash, #results {
+  margin: 10px auto;
+  border: 3px solid black;
+}
+
+#flash {
+  width: 500px;
+  background-color: #8FCA8F;
+  padding: 20px;
+}
+
+#results {
+  width: 775px;
+
+}
+
+.key {
+  width: 300px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.value  {
+  margin-left: 155px;
+  width: 200px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.btn {
+  display: block;
+  width: 75px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 685px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+}
+
+label {
+  display: block;
+  margin-right: 150px;
+  text-align: right;
+  padding:  5px;
+}
+
+input {
+  text-align: left;
+  margin-left: 340px;
+}
+
+select {
+  text-align: left;
+  margin-left: 350px;
+  width: 100px;
+}
+
+form {
+  margin: 15px;
+  padding:  10px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: gray;
+}
+
+textarea  {
+  width: 600px;
+  height: 100px;
+}
+
+form p {
+  padding-left: 160px;
+  text-align: left;
+}
+
+h4 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2  {
+  text-align: center;
+}
+

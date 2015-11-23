@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Your Results</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'surveys/css/style.css'%}">
+  </head>
+  <body>
+    <div id="container">
+      <div id="flash">
+      </div>
+      <div id="results">
+        <h2>Submitted Information</h2>
+        <h4 class="key"> Name:</h4>
+        <h4 class="value">{{context.name}}</h4>
+        <h4 class="key">Dojo Location:</h4>
+        <h4 class="value">{{location}}</h4>
+        <h4 class="key">Favorite Language:</h4>
+        <h4 class="value">{{context.favorite}}</h4>
+        <h4 class="key">Comment:</h4>
+        <h4 class="value"> {{context['comments'] }} </h4>
+        <a class="btn" href="{% url 'survey' %}">Go Back</a>
+      </div>
+    </div>
+  </body>
+</html>
